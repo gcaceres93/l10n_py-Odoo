@@ -15,9 +15,9 @@
 
     <record id="py_chart_template" model="account.chart.template">
       <field name="name">Paraguay - Plan de Cuentas</field>
-      <!--<field name="code_digits">0</field>-->
-      <!--<field name="bank_account_code_prefix">11</field>-->
-      <!--<field name="cash_account_code_prefix">12</field>-->
+      <field name="code_digits">0</field>
+      <field name="bank_account_code_prefix">11</field>
+      <field name="cash_account_code_prefix">12</field>
       <field name="currency_id" ref="base.PYG"/>
       <field name="transfer_account_id" ref="transfer_account_id"/>
     </record>
